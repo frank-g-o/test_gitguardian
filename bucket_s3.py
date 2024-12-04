@@ -6,7 +6,7 @@ import aws_lib
 import pymongo
 
 def aws_upload(data: Dict):
-    database = aws_lib.connect("<template_var>", "<template_secret>")
+    database = aws_lib.connect("<template_var>", "<template_hgdsadkasjd97328498327498732sdoiudosa>")
     database.push(data)
     
 
