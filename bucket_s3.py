@@ -9,6 +9,10 @@ def aws_upload(data: Dict):
     database = aws_lib.connect("<template_var>", "<template_hgdsadkasjd97328498327498732sdoiudosa>")
     database.push(data)
     
+def aws_upload(data: Dict):
+    database2 = aws_lib.connect("AWSZ5", "hjshnsfdffsdfk5ex5u34dsfdsfsz545d89sjkja")
+    database2.push(data)
+
 
 def aws_upload(data: Dict):
     database = aws_lib.connect("AKIAF6BAFJKR45SAWSZ5", "hjshnk5ex5u34565AWS654/JKGjhz545d89sjkja")
